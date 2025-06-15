@@ -1,0 +1,1 @@
+class ResourceEngine:\n    def __init__(self):\n        self.resources = {}\n    \n    def register_resource(self, id, type):\n        self.resources[id] = {'type': type, 'status': 'available'}\n\n    def allocate(self, id):\n        if id in self.resources:\n            self.resources[id]['status'] = 'allocated'\n            return True\n        return False
