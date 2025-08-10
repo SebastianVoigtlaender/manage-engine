@@ -1,0 +1,1 @@
+class AllocationPolicy:\n    def __init__(self, strategy='round-robin'):\n        self.strategy = strategy\n\n    def select_resource(self, available_resources):\n        # AI-driven heuristic selection\n        return available_resources[0] if available_resources else None
