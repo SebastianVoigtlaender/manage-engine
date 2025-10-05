@@ -1,0 +1,1 @@
+from core.manager import ResourceEngine\nfrom core.policy import AllocationPolicy\n\nengine = ResourceEngine()\npolicy = AllocationPolicy(strategy='ai-heuristic')\nengine.register_resource('node-01', 'compute')\nprint(f'Allocating resource: {policy.select_resource(list(engine.resources.keys()))}')

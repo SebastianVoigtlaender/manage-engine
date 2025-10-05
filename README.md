@@ -1,1 +1,1 @@
-# AI-Driven Resource Management Engine\n\nA high-performance engine for dynamic resource allocation using AI heuristics.
+# AI Resource Management Engine (QuantCo VIRDX)\n\nAdvanced resource orchestration optimized for high-throughput biophysics AI pipelines, ensuring optimal allocation for GPU-intensive workloads.
